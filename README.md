@@ -7,7 +7,7 @@ You are in a CTF or a Pentest. You run a standard `nmap` scan. It checks the top
 **The Reality:** The target had a hidden administrative console on **Port 6520**. Nmap missed it. You missed the shell.
 
 ## ⚡ The Solution
-**Syntropy Scanner** automates the "Discovery" phase of a penetration test. It runs two scans simultaneously (Fast Nmap + Full Rustscan) and performs a **Gap Analysis**. If Rustscan finds a port that Nmap missed, it triggers a **RED ALERT**.
+**Syntropy Scanner** automates the "Discovery" phase of a penetration test. It runs two scans simultaneously (Fast Nmap + Full Rustscan) and performs a **Gap Analysis**. If Rustscan finds a port that Nmap missed, it triggers a **RED ALERT**. It ends with producing a clean HTML report of the entire comprehensive scan on the target.
 
 ### Now Available in Two Editions:
 
@@ -15,7 +15,7 @@ You are in a CTF or a Pentest. You run a standard `nmap` scan. It checks the top
 | :--- | :---: | :---: |
 | **Speed** | ⚡ Instant | 🐢 Slower (Deep Analysis) |
 | **Gap Analysis** | ✅ Yes | ✅ Yes |
-| **Visual Dashboard** | ❌ No | ✅ **Pro Console UI** |
+| **Visual Dashboard** |  ✅ **HTML report** | ✅ **HTML report** |
 | **UDP Support** | ❌ No | ✅ **Optional Module** |
 | **Root Required** | ❌ No | ✅ Yes (For UDP/OS Detect) |
 
